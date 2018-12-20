@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+    {{> layout-head }}
+    <body>
+        <div id="header-pad"></div>
+        <div id="navbar-container">
+            <nav id="navbar">
+                <ul id="navbar-left">
+                    <li id="home"><a href="/"></a></li>
+                    <li id="portfolio"><a href="/portfolio">Portfolio</a></li>
+                    <li id="gaming"><a href="/gaming">Gaming</a></li>
+                </ul>
+                <ul id="navbar-right">
+                    <li class="twitter"><a href="https://twitter.com/RiotWozzer" target="_blank"></a></li>
+                    <li class="github"><a href="https://github.com/wo33er" target="_blank"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="body-container">
+            {{{body}}}
+        </div>
+    </body>
+</html>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("navbar-container").style.position = "fixed";
+            document.getElementById("navbar-container").style.padding = "5px 20px 5px";
+            document.getElementById("navbar-container").style.background = "#252525e6";
+            document.getElementById("navbar-container").style.border = "1px solid rgb(53, 53, 53)";
+        } else {
+            document.getElementById("navbar-container").style.position = "absolute";
+            document.getElementById("navbar-container").style.padding = "40px 20px 5px";
+            document.getElementById("navbar-container").style.background = "#ffffff00";
+            document.getElementById("navbar-container").style.border = "none";
+        }
+    }
+    if(window.location.pathname === "/") {
+        document.getElementById("home").className = "active";
+    }
+    if(window.location.pathname === "/portfolio") {
+        document.getElementById("portfolio").className = "active";
+    }
+    if(window.location.pathname === "/gaming") {
+        document.getElementById("gaming").className = "active";
+    }
+</script>

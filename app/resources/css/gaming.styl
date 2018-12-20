@@ -1,0 +1,133 @@
+#completions {
+    display: flex;
+    flex-wrap: wrap;
+}
+.completion-game {
+    border: 1px solid white;
+    height: 300px;
+    overflow: hidden;
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+        border: 1px solid black;
+    }
+}
+// TEMP FOR GAMING PAGE
+@media screen and (min-width: 1800px) {
+    .completion-game {
+        min-width: 350px;
+    }
+}
+@media screen and (max-width: 1799px) {
+    .completion-game {
+        min-width: calc(25% -  1em);
+    }
+    .completion-game:nth-child(4n+1) {
+        min-width: calc(50% - 1em);
+    }
+}
+@media screen and (max-width: 1400px) {
+    .completion-game {
+        min-width: calc(33% -  1em);
+    }
+    .completion-game:nth-child(4n+1) {
+        min-width: calc(66% - 1em);
+    }
+}
+@media screen and (max-width: 900px) {
+    .completion-game {
+        min-width: calc(50% -  1em);
+    }
+    .completion-game:nth-child(4n+1) {
+        min-width: calc(100% - 1em);
+    }
+}
+/*
+@media screen and (min-width: 1200px) {
+    .completion-game {
+        min-width: calc(33% -  1em);
+    }
+}
+@media screen and (max-width: 1199px) {
+    .completion-game {
+        min-width: calc(50% - 1em);
+    }
+}
+*/
+@media screen and (max-width: 800px) {
+    .completion-game {
+        min-width: calc(100%);
+    }
+}
+/*
+.completion-game:nth-child(3n+1) {
+    min-width: calc(50% - 1em);
+}
+.completion-game:nth-child(5n+1) {
+    min-width: calc(100% - 1em);
+}
+*/
+
+.completion-game-title {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 0 10px;
+}
+.completion-game-title > div {
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px 10px 0 0;
+    color: white;
+    border: 2px solid;
+    background: #1d1d1d;
+    mix-blend-mode: normal;
+    padding: 5px;
+    line-height: normal;
+    display: inline-block;
+}
+
+.completion-game-details {
+    opacity: 0;
+}
+.completion-game:hover {
+    .completion-game-details {
+        opacity: 100;
+        background-color: #ffffffcc;
+        padding: 10px;
+    }
+}
+
+.completion-game-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.completion-game-header-duration {
+    display: flex;
+
+    &:after{
+        display: block;
+        content: "hrs";
+        font-style: italic;
+    }
+}
+.completion-game-review {
+    line-height: 15px;
+}
+.completion-game-review-rating {
+    display: inline;
+    font-weight: bold;
+
+    &:after{
+        display: inline;
+        content: "/10";
+        font-style: italic;
+    }
+}

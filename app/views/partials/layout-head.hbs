@@ -1,0 +1,35 @@
+<head>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Reece Warrender"/>
+  <meta name="keywords" content="Reece Warrender, Warrender, Wo33er, Riot Wo33er"/>
+  <meta name="description" content="The personal website of Reece Warrender!"/>
+  <title>
+    {{#if title}}
+      {{ title }}
+    {{else}}
+      Reece Warrender | Wozzer
+    {{/if}}
+    </title>
+  <meta property="og:site_name" content="ReeceWarrender.com"/>
+  <meta property="og:image" content="http://www.reecewarrender.com/images/reecewarrender_preview.jpg">
+  <meta name="twitter:site" content="ReeceWarrender.com">
+  <meta name="twitter:image" content="http://www.reecewarrender.com/images/reecewarrender_preview.jpg">
+  <link href="/css/reset.css" rel="stylesheet">
+  <link href="/css/app.css" rel="stylesheet">
+  <link href="/css/content.css" rel="stylesheet">
+  <link href="/css/portfolio.css" rel="stylesheet">
+  <link href="/css/gaming.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  {{#if googleAnalytics}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{googleAnalytics}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', {{googleAnalytics}});
+    </script>
+  {{/if}}
+</head>

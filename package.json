@@ -1,0 +1,37 @@
+{
+  "name": "reecewarrender",
+  "version": "1.0.0",
+  "description": "The code repository for my personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/app.js",
+    "prod": "node app/app.js",
+    "dev": "nodemon -L app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Wo33er/reece-warrender.git"
+  },
+  "keywords": [
+    "rwarrender",
+    "wozzer"
+  ],
+  "author": "rwarrender",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "stylus": "^0.54.5"
+  }
+}
