@@ -37,7 +37,7 @@ app.use(stylus.middleware({
 app.use(express.static(__dirname + '/public'));
 
 // Routes - General
-app.get('/', async (req, res) => {
+app.get('/temp', async (req, res) => {
     var googleAnalytics = null;
 
     if(process.env.PLATFORM == "prod") {
@@ -65,7 +65,7 @@ app.listen(PORT, () => {
 });
 
 // TEMP FOR WO33ER.COM
-app.get('/wozzer', async (req, res) => {
+app.get('/', async (req, res) => {
     var googleAnalytics = null;
     var gamingData = require("./data/completions-2018.js");
 
