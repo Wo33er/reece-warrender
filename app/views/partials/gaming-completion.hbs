@@ -1,6 +1,6 @@
 <div id="completions">
   {{#each gamingData }}
-    <div class="completion-game" style="background-image:url('/images/games/{{ cleanString title }}.jpg')">
+    <div class="completion-game" style="background-image:url('../images/games/{{ cleanString title }}.jpg')">
       <div class="completion-game-title">
         <div class="completion-game-title-text">{{ addOne @key }} - {{ title }}</div>
       </div>
@@ -13,7 +13,7 @@
         <div class="completion-game-review">
           <div class="completion-game-review-body">
             {{ review }}
-            <div class="completion-game-review-rating">{{ rating }}</div>
+            <div class="completion-game-review-rating completion-game-review-stars-{{ rating }}"></div>
           </div>
         </div>
       </div>

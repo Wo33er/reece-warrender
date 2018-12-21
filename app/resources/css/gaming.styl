@@ -124,10 +124,24 @@
 .completion-game-review-rating {
     display: inline;
     font-weight: bold;
+    background-image: url('/images/icons/star.png');
+    height: 10px;
+    display: inline-block;
+    background-size: contain;
 
-    &:after{
-        display: inline;
-        content: "/10";
-        font-style: italic;
+    &.completion-game-review-stars-5 {
+        width: 50px;
+    }
+    &.completion-game-review-stars-4 {
+        width: 40px;
+    }
+    &.completion-game-review-stars-3 {
+        width: 30px;
+    }
+    &.completion-game-review-stars-2 {
+        width: 20px;
+    }
+    &.completion-game-review-stars-1 {
+        width: 10px;
     }
 }
