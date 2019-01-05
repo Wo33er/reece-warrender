@@ -10,10 +10,15 @@ router.use(function(req, res, next) {
 });
 
 router.get('/', async (req, res) => {
-    var portfolioData = null;
-
+    var googleAnalytics = null;
+    
+    if(process.env.PLATFORM == "prod") {
+        googleAnalytics = process.env.GOOGLE_ANALYTICS;
+    }
+    
     res.render(__dirname + '/../views/portfolio', {
-        portfolioData
+        title: "Reece Warrender | Portfolio",
+        googleAnalytics: googleAnalytics
     });
 });
 

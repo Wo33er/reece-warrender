@@ -11,7 +11,7 @@
             <nav id="navbar">
                 <ul id="navbar-left">
                     <li id="home"><a href="/"></a></li>
-                    <li id="portfolio"><a href="/portfolio">Portfolio</a></li>
+                    <!--<li id="portfolio"><a href="/portfolio">Portfolio</a></li>-->
                     <li id="gaming"><a href="/gaming">Gaming</a></li>
                 </ul>
                 <ul id="navbar-right">
@@ -29,14 +29,14 @@
 <script>
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
-        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+            document.getElementById("navbar-container").classList.add('nav-white');
             document.getElementById("navbar-container").style.position = "fixed";
-            document.getElementById("navbar-container").style.padding = "5px 20px 5px";
             document.getElementById("navbar-container").style.background = "#252525e6";
             document.getElementById("navbar-container").style.border = "1px solid rgb(53, 53, 53)";
         } else {
+            document.getElementById("navbar-container").classList.remove('nav-white');
             document.getElementById("navbar-container").style.position = "absolute";
-            document.getElementById("navbar-container").style.padding = "40px 20px 5px";
             document.getElementById("navbar-container").style.background = "#ffffff00";
             document.getElementById("navbar-container").style.border = "none";
         }

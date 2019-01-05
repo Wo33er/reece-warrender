@@ -10,54 +10,24 @@ router.use(function(req, res, next) {
 });
 
 router.get('/', async (req, res) => {
-    var gamingData = require("../data/completions-2018.js");
-
+    var googleAnalytics = null;
+    var gamingData = require("../data/completions.js");
+    
+    if(process.env.PLATFORM == "prod") {
+        googleAnalytics = process.env.GOOGLE_ANALYTICS;
+    }
+    
     res.render(__dirname + '/../views/gaming', {
-        gamingData,
-        sidebar: 'gaming-sidebar'
-    });
-});
-
-router.get('/2018', async (req, res) => {
-    var gamingData = require("../data/completions-2018.js");
-
-    res.render(__dirname + '/../views/gaming', {
-        gamingData,
-        sidebar: 'gaming-sidebar'
-    });
-});
-
-router.get('/2017', async (req, res) => {
-    var gamingData = require("../data/completions-2017.js");
-
-    res.render(__dirname + '/../views/gaming', {
-        gamingData,
-        sidebar: 'gaming-sidebar'
-    });
-});
-
-router.get('/2016', async (req, res) => {
-    var gamingData = require("../data/completions-2016.js");
-
-    res.render(__dirname + '/../views/gaming', {
-        gamingData,
-        sidebar: 'gaming-sidebar'
-    });
-});
-
-router.get('/2015', async (req, res) => {
-    var gamingData = require("../data/completions-2015.js");
-
-    res.render(__dirname + '/../views/gaming', {
-        gamingData,
-        sidebar: 'gaming-sidebar'
+        title: "Reece Warrender | Gaming",
+        googleAnalytics: googleAnalytics,
+        gamingData
     });
 });
 
 router.get('/backlog', async (req, res) => {
     var gamingData = require("../data/backlog.js");
 
-    res.render(__dirname + '/../views/gaming', {
+    res.render(__dirname + '/../views/backlog', {
         gamingData,
         sidebar: 'gaming-sidebar'
     });

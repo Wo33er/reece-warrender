@@ -13,13 +13,16 @@ app.engine('hbs', exphbs({
     layoutsDir: __dirname + '/views/layouts',
     partialsDir: __dirname + '/views/partials/',
     helpers: {
-        cleanString: function(value){
+        cleanString: function(value) {
             var cleanString = value.replace(/[^a-zA-Z0-9 ]/g, "").split(' ').join('_').toLowerCase();
             return cleanString;
         },
-        addOne: function(value){
+        addOne: function(value) {
             var addOne = value + 1;
             return addOne;
+        },
+        reverse: function(array) {
+            return array.reverse();
         }
     },
     extname:'.hbs'
@@ -37,7 +40,7 @@ app.use(stylus.middleware({
 app.use(express.static(__dirname + '/public'));
 
 // Routes - General
-app.get('/temp', async (req, res) => {
+app.get('/', async (req, res) => {
     var googleAnalytics = null;
 
     if(process.env.PLATFORM == "prod") {
@@ -62,21 +65,4 @@ app.use('/portfolio', portfolioRouter);
 const PORT = process.env.PORT || 1337;
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
-});
-
-// TEMP FOR WO33ER.COM
-app.get('/', async (req, res) => {
-    var googleAnalytics = null;
-    var gamingData = require("./data/completions-2018.js");
-
-    if(process.env.PLATFORM == "prod") {
-        googleAnalytics = process.env.GOOGLE_ANALYTICS;
-    }
-
-    res.render(__dirname + '/views/wozzer', {
-        title: "Wozzer | Wo33er",
-        layout: 'wozzer.hbs',
-        googleAnalytics: googleAnalytics,
-        gamingData
-    });
 });
