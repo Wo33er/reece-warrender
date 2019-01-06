@@ -3,6 +3,8 @@ module.exports = [
         year: "2019",
         games: [
             {title: "GRIS",date: "1st Jan",duration: "2.8",platform: "PC",rating: "5",review: "Absolutely stunning casual puzzle platformer adventure that sees you through various gorgeous watercolor painted worlds overlaid with a spectacular musical score that works beautifully together. More art than game, and although a short experience at only 3hours it makes sure to utilize every second of it."},
+            {title: "The Awesome Adventures of Captain Spirit",date: "4th Jan",duration: "2.1",platform: "PC",rating: "2",review: "A short and simplistic adventure in the style of Life is Strange telling the tale of an imaginative child going through difficult life events. The creativity, charm and story premise are engaging enough but the puzzle design is somewhat underwhelming between generally busy work and one incredibly cryptic (mobile phone) puzzle that I wouldn't have got without the helpful folks of the internet."},
+            {title: "Guacamelee!",date: "6th Jan",duration: "6.2",platform: "Xbox One",rating: "4",review: "My second playthrough of this fantastic Metroidvania, this time around playing co-op with my daughter. Impressed with how well integrated the co-op is, especially since the game relies on complex platforming and finely tuned melee combat. Incredibly satisfying and challenging core gameplay loop with just enough progression and variety to keep it fresh from start to end."},
         ]
     },
     {
