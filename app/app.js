@@ -61,6 +61,10 @@ app.use('/gaming', gamingRouter);
 var portfolioRouter = require('./routes/portfolio-router');
 app.use('/portfolio', portfolioRouter);
 
+// Routes - Portfolio
+var xboxRouter = require('./routes/xbox-router');
+app.use('/xbox', xboxRouter);
+
 // Start app
 const PORT = process.env.PORT || 1337;
 app.listen(PORT, () => {
