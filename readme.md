@@ -1,6 +1,6 @@
 # Reece Warrender
 
-The code repository for my personal website.
+The code repository for my personal website
 
 ## Docker Flow
 
