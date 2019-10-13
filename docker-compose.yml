@@ -4,9 +4,6 @@ app:
   volumes:
     - ./:/var/www
   ports:
-    - 1337:1337
-  environment:
-    - NODE_ENV=development
-    - PORT=1337
+    - 3000:3000
   command:
     sh -c 'npm i && npm run ${PLATFORM}'

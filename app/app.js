@@ -66,7 +66,7 @@ var xboxRouter = require('./routes/xbox-router');
 app.use('/xbox', xboxRouter);
 
 // Start app
-const PORT = process.env.PORT || 1337;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
