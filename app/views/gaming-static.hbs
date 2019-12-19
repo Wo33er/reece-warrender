@@ -10,7 +10,7 @@
         </div>
       </div>
       {{#each this.games }}
-        <div id="{{ cleanString title }}" class="completion-game lazy {{#if ../../static}} hover {{/if}}" style="background-image:url('/images/games/{{ cleanString title }}.jpg')">
+        <div id="{{ cleanString title }}" class="completion-game lazy hover" style="background-image:url('/images/games/{{ cleanString title }}.jpg')">
           <div class="completion-game-title">
             <div class="completion-game-title-text">{{ addOne @key }} - {{ title }}</div>
           </div>

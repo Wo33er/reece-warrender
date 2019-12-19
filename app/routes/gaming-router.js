@@ -3,13 +3,17 @@
 var express  = require('express');
 var request = require('request');
 var async = require("async");
+
+
 var router = express.Router();
 
 router.use(function(req, res, next) {
     next();
 });
 
-router.get('/', async (req, res) => {
+router.get('/:static?', async (req, res) => {
+    if(req.params.static == null) { static = false; } else { static = true }
+
     var googleAnalytics = null;
     var gamingData = require("../data/completions.js");
     
@@ -20,7 +24,8 @@ router.get('/', async (req, res) => {
     res.render(__dirname + '/../views/gaming', {
         title: "Reece Warrender | Gaming",
         googleAnalytics: googleAnalytics,
-        gamingData
+        gamingData,
+        static
     });
 });
 
