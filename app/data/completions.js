@@ -50,7 +50,8 @@ module.exports = [
             {title: "Minit",date: "15th Nov",duration: "2",platform: "PC",rating: "2",review: ""},
             {title: "Destiny 2: Shadowkeep",date: "2nd Dec",duration: "6",platform: "PC",rating: "3",review: ""},
             {title: "Death Stranding",date: "13th Dec",duration: "50",platform: "PS4",rating: "5",review: ""},
-            {title: "Assassin's Creed: Revelations",date: "26th Dec",duration: "18",platform: "X360",rating: "2",review: ""}
+            {title: "Assassin's Creed: Revelations",date: "26th Dec",duration: "18",platform: "X360",rating: "2",review: ""},
+            {title: "Assassin's Creed: Revelations - Lost Archive",date: "27th Dec",duration: "3",platform: "X360",rating: "1",review: ""},
         ]
     },
     {
