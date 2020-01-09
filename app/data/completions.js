@@ -1,5 +1,12 @@
 module.exports = [
     {
+        year: "2020",
+        games: [
+            {title: "Hellblade: Senua's Sacrifice",date: "",duration: "8",platform: "PC",rating: "4",review: ""},
+            {title: "A Dark Room",date: "",duration: "5",platform: "PC",rating: "4",review: ""},
+        ]
+    },
+    {
         year: "2019",
         games: [
             {title: "GRIS",date: "1st Jan",duration: "2.8",platform: "PC",rating: "4",review: "Absolutely stunning casual puzzle platformer adventure that sees you through various gorgeous watercolor painted worlds overlaid with a spectacular musical score that works beautifully together. More art than game, and although a short experience at only 3hours it makes sure to utilize every second of it."},
