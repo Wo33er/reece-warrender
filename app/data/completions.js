@@ -5,7 +5,7 @@ module.exports = [
             {title: "Hellblade: Senua's Sacrifice",date: "Jan 5th",duration: "8",platform: "PC",rating: "4",review: ""},
             {title: "A Dark Room",date: "Jan 7th",duration: "5",platform: "PC",rating: "4",review: ""},
             {title: "Space Lich Omega",date: "Jan 8th",duration: "4",platform: "PC",rating: "2",review: ""},
-            {title: "Control",date: "Jan 10th",duration: "15",platform: "PC",rating: "4",review: ""},
+            {title: "Control",date: "Jan 10th",duration: "15",platform: "PC",rating: "5",review: ""},
             {title: "Space Lich Omega 2",date: "Jan 11th",duration: "3",platform: "PC",rating: "1",review: ""},
         ]
     },
