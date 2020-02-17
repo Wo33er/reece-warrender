@@ -7,6 +7,10 @@ module.exports = [
             {title: "Space Lich Omega",date: "Jan 8th",duration: "4",platform: "PC",rating: "2",review: ""},
             {title: "Control",date: "Jan 10th",duration: "15",platform: "PC",rating: "5",review: ""},
             {title: "Space Lich Omega 2",date: "Jan 11th",duration: "3",platform: "PC",rating: "1",review: ""},
+            {title: "Luigi Mansion 3",date: "Jan 26th",duration: "13",platform: "Switch",rating: "4",review: ""},
+            {title: "Yakuza 0",date: "Feb 8th",duration: "35",platform: "PC",rating: "5",review: ""},
+            {title: "Sexy Brutale",date: "Feb 11th",duration: "7",platform: "PC",rating: "3",review: ""},
+            {title: "Candy Box",date: "Feb 16th",duration: "4",platform: "PC",rating: "2",review: ""},
         ]
     },
     {
