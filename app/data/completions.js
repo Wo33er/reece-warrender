@@ -11,6 +11,11 @@ module.exports = [
             {title: "Yakuza 0",date: "Feb 8th",duration: "35",platform: "PC",rating: "5",review: ""},
             {title: "Sexy Brutale",date: "Feb 11th",duration: "7",platform: "PC",rating: "3",review: ""},
             {title: "Candy Box",date: "Feb 16th",duration: "4",platform: "PC",rating: "2",review: ""},
+            {title: "Donkey Kong Country: Tropical Freeze",date: "Mar 3rd",duration: "12",platform: "Switch",rating: "4",review: ""},
+            {title: "Ori and the Blind Forest",date: "Mar 7th",duration: "9",platform: "PC",rating: "5",review: ""},
+            {title: "Trials Rising",date: "Mar 8th",duration: "18",platform: "XOne",rating: "2",review: ""},
+            {title: "Supermarket Shriek",date: "Mar 11th",duration: "7",platform: "XOne",rating: "2",review: ""},
+            {title: "Baldur's Gate",date: "Mar 14th",duration: "40",platform: "PC",rating: "5",review: ""},
         ]
     },
     {
