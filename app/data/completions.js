@@ -12,10 +12,13 @@ module.exports = [
             {title: "Sexy Brutale",date: "Feb 11th",duration: "7",platform: "PC",rating: "3",review: ""},
             {title: "Candy Box",date: "Feb 16th",duration: "4",platform: "PC",rating: "2",review: ""},
             {title: "Donkey Kong Country: Tropical Freeze",date: "Mar 3rd",duration: "12",platform: "Switch",rating: "4",review: ""},
-            {title: "Ori and the Blind Forest",date: "Mar 7th",duration: "9",platform: "PC",rating: "5",review: ""},
+            {title: "Ori and the Blind Forest",date: "Mar 7th",duration: "9",platform: "PC",rating: "4",review: ""},
             {title: "Trials Rising",date: "Mar 8th",duration: "18",platform: "XOne",rating: "2",review: ""},
             {title: "Supermarket Shriek",date: "Mar 11th",duration: "7",platform: "XOne",rating: "2",review: ""},
             {title: "Baldur's Gate",date: "Mar 14th",duration: "40",platform: "PC",rating: "5",review: ""},
+            {title: "Ori and the Will of the Wisps",date: "Mar 23rd",duration: "14",platform: "PC",rating: "5",review: ""},
+            {title: "Divinity: Original Sin II",date: "Mar 24th",duration: "111",platform: "PC",rating: "4",review: ""},
+            {title: "Opus Magnum",date: "Mar 25th",duration: "36",platform: "PC",rating: "4",review: ""},
         ]
     },
     {
