@@ -19,6 +19,12 @@ module.exports = [
             {title: "Ori and the Will of the Wisps",date: "Mar 23rd",duration: "14",platform: "PC",rating: "5",review: ""},
             {title: "Divinity: Original Sin II",date: "Mar 24th",duration: "111",platform: "PC",rating: "4",review: ""},
             {title: "Opus Magnum",date: "Mar 25th",duration: "36",platform: "PC",rating: "4",review: ""},
+            {title: "Donut Country",date: "Mar 29th",duration: "4",platform: "Switch",rating: "3",review: ""},
+            {title: "Yakuza Kiwami",date: "Mar 31st",duration: "28",platform: "PC",rating: "3",review: ""},
+            {title: "World War Z",date: "Apr 6th",duration: "7",platform: "PC",rating: "3",review: ""},
+            {title: "Metro 2033 Redux",date: "Apr 13th",duration: "11",platform: "PC",rating: "3",review: ""},
+            {title: "The LEGO NINJAGO Movie Video Game",date: "Apr 19th",duration: "12",platform: "XOne",rating: "2",review: ""},
+            {title: "Journey",date: "Apr 19th",duration: "2",platform: "PS4",rating: "5",review: ""},
         ]
     },
     {
