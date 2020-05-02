@@ -25,6 +25,9 @@ module.exports = [
             {title: "Metro 2033 Redux",date: "Apr 13th",duration: "11",platform: "PC",rating: "3",review: ""},
             {title: "The LEGO NINJAGO Movie Video Game",date: "Apr 19th",duration: "12",platform: "XOne",rating: "2",review: ""},
             {title: "Journey",date: "Apr 19th",duration: "2",platform: "PS4",rating: "5",review: ""},
+            {title: "Call of Duty: Modern Warfare",date: "Apr 30th",duration: "8",platform: "PC",rating: "4",review: ""},
+            {title: "Gears of War 4",date: "Apr 30th",duration: "9",platform: "PC",rating: "2",review: ""},
+            {title: "Animal Crossing",date: "May 1st",duration: "36",platform: "Switch",rating: "4",review: ""},
         ]
     },
     {
