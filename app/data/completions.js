@@ -28,6 +28,14 @@ module.exports = [
             {title: "Call of Duty: Modern Warfare",date: "Apr 30th",duration: "8",platform: "PC",rating: "4",review: ""},
             {title: "Gears of War 4",date: "Apr 30th",duration: "9",platform: "PC",rating: "2",review: ""},
             {title: "Animal Crossing",date: "May 1st",duration: "36",platform: "Switch",rating: "4",review: ""},
+            {title: "Underhero",date: "May 20th",duration: "10",platform: "PC",rating: "1",review: ""},
+            {title: "Unravel Two",date: "May 25th",duration: "5",platform: "XOne",rating: "3",review: ""},
+            {title: "Outer Wilds",date: "May 25th",duration: "20",platform: "XOne",rating: "5",review: ""},
+            {title: "Superliminal",date: "May 30th",duration: "4",platform: "PC",rating: "5",review: ""},
+            {title: "Old Man's Journey",date: "May 30th",duration: "2",platform: "PC",rating: "2",review: ""},
+            {title: "Human Fall Flat",date: "May 31st",duration: "5",platform: "XOne",rating: "4",review: ""},
+            {title: "Final Fantasy IX",date: "Jun 7th",duration: "70",platform: "PC",rating: "3",review: ""},
+            {title: "Binary Domain",date: "Jun 8th",duration: "10",platform: "PC",rating: "3",review: ""}
         ]
     },
     {
