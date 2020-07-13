@@ -35,7 +35,18 @@ module.exports = [
             {title: "Old Man's Journey",date: "May 30th",duration: "2",platform: "PC",rating: "2",review: ""},
             {title: "Human Fall Flat",date: "May 31st",duration: "5",platform: "XOne",rating: "4",review: ""},
             {title: "Final Fantasy IX",date: "Jun 7th",duration: "70",platform: "PC",rating: "3",review: ""},
-            {title: "Binary Domain",date: "Jun 8th",duration: "10",platform: "PC",rating: "3",review: ""}
+            {title: "Binary Domain",date: "Jun 8th",duration: "10",platform: "PC",rating: "3",review: ""},
+            {title: "Black Desert Mobile",date: "Jun 8th",duration: "50",platform: "Android",rating: "3",review: ""},
+            {title: "Obduction",date: "Jun 2th",duration: "15",platform: "PC",rating: "2",review: ""},
+            {title: "Torment: Tides of Numenera",date: "Jun 16th",duration: "41",platform: "PC",rating: "3",review: ""},
+            {title: "Deep Rock Galactic",date: "Jun 19th",duration: "31",platform: "PC",rating: "4",review: ""},
+            {title: "Last of Us: Left Behind",date: "Jun 19th",duration: "3",platform: "PS4",rating: "4",review: ""},
+            {title: "Gears of War 5",date: "Jun 21st",duration: "11",platform: "PC",rating: "3",review: ""},
+            {title: "Valorant",date: "Jul 4th",duration: "200",platform: "PC",rating: "5",review: ""},
+            {title: "Marvel vs. Capcom: Infinite",date: "Jul 5th",duration: "10",platform: "XOne",rating: "2",review: ""},
+            {title: "Gunfire Reborn",date: "Jul 6th",duration: "11",platform: "PC",rating: "4",review: ""},
+            {title: "Sonic Mania",date: "Jul 12th",duration: "5.5",platform: "XOne",rating: "2",review: ""},
+            {title: "Tomb Raider: Anniversary",date: "Jul 12th",duration: "13",platform: "PC",rating: "2",review: ""},
         ]
     },
     {
