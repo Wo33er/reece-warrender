@@ -47,6 +47,9 @@ module.exports = [
             {title: "Gunfire Reborn",date: "Jul 6th",duration: "11",platform: "PC",rating: "4",review: ""},
             {title: "Sonic Mania",date: "Jul 12th",duration: "5.5",platform: "XOne",rating: "2",review: ""},
             {title: "Tomb Raider: Anniversary",date: "Jul 12th",duration: "13",platform: "PC",rating: "2",review: ""},
+            {title: "Gears Tactics",date: "Jul 13th",duration: "30",platform: "PC",rating: "4",review: ""},
+            {title: "Superhot",date: "Jul 13th",duration: "2.5",platform: "PC",rating: "4",review: ""},
+            {title: "The Messenger",date: "Jul 14th",duration: "12",platform: "Switch",rating: "5",review: ""},
         ]
     },
     {
