@@ -50,6 +50,11 @@ module.exports = [
             {title: "Gears Tactics",date: "Jul 13th",duration: "30",platform: "PC",rating: "4",review: ""},
             {title: "Superhot",date: "Jul 13th",duration: "2.5",platform: "PC",rating: "4",review: ""},
             {title: "The Messenger",date: "Jul 14th",duration: "12",platform: "Switch",rating: "5",review: ""},
+            {title: "Uncharted: Drake's Fortune",date: "Jul 14th",duration: "9",platform: "PS4",rating: "3",review: ""},
+            {title: "The Last of Us Part II",date: "Jul 20th",duration: "30",platform: "PS4",rating: "5",review: ""},
+            {title: "Fall Guys",date: "Aug 5th",duration: "10",platform: "PC",rating: "4",review: ""},
+            {title: "Uncharted 2: Among Thieves",date: "Aug 11th",duration: "12",platform: "PS3",rating: "5",review: ""},
+            {title: "The Banner Saga",date: "Aug 28th",duration: "10",platform: "PC",rating: "4",review: ""},
         ]
     },
     {
