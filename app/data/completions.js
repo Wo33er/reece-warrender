@@ -55,6 +55,9 @@ module.exports = [
             {title: "Fall Guys",date: "Aug 5th",duration: "10",platform: "PC",rating: "4",review: ""},
             {title: "Uncharted 2: Among Thieves",date: "Aug 11th",duration: "12",platform: "PS3",rating: "5",review: ""},
             {title: "The Banner Saga",date: "Aug 28th",duration: "10",platform: "PC",rating: "4",review: ""},
+            {title: "No Man's Sky",date: "Aug 31st",duration: "60",platform: "PC",rating: "4",review: ""},
+            {title: "Among Us",date: "Sep 11th",duration: "30",platform: "PC",rating: "4",review: ""},
+            {title: "Kentucky Route Zero",date: "Sep 28th",duration: "12",platform: "PC",rating: "3",review: ""},
         ]
     },
     {
